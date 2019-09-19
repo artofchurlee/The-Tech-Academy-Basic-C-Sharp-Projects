@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoInt", "TwoInt\TwoInt.csproj", "{A261FB81-0259-4FB9-B2A1-EDD2D4945080}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A261FB81-0259-4FB9-B2A1-EDD2D4945080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A261FB81-0259-4FB9-B2A1-EDD2D4945080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A261FB81-0259-4FB9-B2A1-EDD2D4945080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A261FB81-0259-4FB9-B2A1-EDD2D4945080}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BE14EFD-0B66-4F27-A041-6A721D3056BE}
+	EndGlobalSection
+EndGlobal
