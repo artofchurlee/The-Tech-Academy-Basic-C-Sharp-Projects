@@ -10,15 +10,18 @@ namespace PersonPractice
     {
         static void Main(string[] args)
         {
-            Person person = new Person();
-            person.FirstName = "Sample";
-            person.LastName = "Student";
-            person.SayName();
-
             Employee employee = new Employee();
-            employee.FirstName = "Sample";
-            employee.LastName = "Employee";
-            employee.SayName();
+            employee.ID = 1;
+
+
+            Employee employee2 = new Employee();
+            employee2.ID = 1;
+
+
+            if(employee == employee2)
+            {
+
+            }
 
             Console.ReadLine();
 
