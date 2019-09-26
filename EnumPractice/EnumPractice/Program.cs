@@ -14,8 +14,8 @@ namespace EnumPractice
             string input = Console.ReadLine();
             try
             {
-                Enum.Parse(typeof(DayofWeek), input, true);
-                Console.WriteLine("Today is " + input);
+                DayofWeek today = (DayofWeek)Enum.Parse(typeof(DayofWeek), input, true);
+                Console.WriteLine("Today is " + today);
             }
 
             catch
