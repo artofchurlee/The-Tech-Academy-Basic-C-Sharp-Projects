@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Insurance</h1>
+    <p class="lead">Please complete the following to get an insurance quote customized for you!</p>
+</div>
+
+@using (Html.BeginForm("GetQuote", "Home", FormMethod.Post))
+{
+    <form class="container">
+        <div class="form-group">
+            <label>First Name</label>
+            <input name="FirstName" type="text" class="form-control" placeholder="First Name" />
+        </div>
+        <div class="form-group">
+            <label>Last Name</label>
+            <input name="LastName" type="text" class="form-control" placeholder="Last Name" />
+        </div>
+        <div class="form-group">
+            <label>Email address</label>
+            <input type="email" class="form-control" placeholder="Email Address">
+        </div>
+        <div class="form-group">
+            <label>Date of Birth</label>
+            <input type="date" class="form-control" placeholder="Date of Birth">
+        </div>
+        <div class="form-group">
+            <label>What year is your car?</label>
+            <input type="number" class="form-control" placeholder="Car Year" />
+        </div>
+        <div class="form-group">
+            <label>What is your car's make?</label>
+            <input type="text" class="form-control" placeholder="Car Make" />
+        </div>
+        <div class="form-group">
+            <label>What is your car's model? </label>
+            <input type="text" class="form-control" placeholder="Car Model" />
+        </div>
+        <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" value="true">
+            <label class="form-check-label">Check if you have had any DUIs.</label>
+        </div>
+        <div class="form-group">
+            <label>How many speeding tickets have you received?</label>
+            <input type="number" class="form-control" placeholder="Please enter a number" />
+        </div>
+        <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" value="true"/>
+            <label class="form-check-label">Check if you want Full Coverage.</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+}
+
+
